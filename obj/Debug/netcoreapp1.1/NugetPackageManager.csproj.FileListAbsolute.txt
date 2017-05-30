@@ -1,0 +1,9 @@
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\netcoreapp1.1\NugetPackageManager.deps.json
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\netcoreapp1.1\NugetPackageManager.runtimeconfig.json
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\netcoreapp1.1\NugetPackageManager.runtimeconfig.dev.json
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.AssemblyInfo.cs
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\netcoreapp1.1\NugetPackageManager.dll
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\netcoreapp1.1\NugetPackageManager.pdb
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.dll
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.pdb
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.csprojResolveAssemblyReference.cache

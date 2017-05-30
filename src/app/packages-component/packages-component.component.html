@@ -1,0 +1,13 @@
+﻿<div class="main">
+  <h1>Packages</h1>
+  <div class="addItem">
+    <input placeholder="Add Package" [(ngModel)]="newPackage.name" class="addText"/>
+    <button (click)="addPackage()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor="let package of packages; let ind = index">
+      {{package.name}}
+      <span (click)="removePackage(ind)">X</span>
+    </li>
+  </ul>
+</div>
