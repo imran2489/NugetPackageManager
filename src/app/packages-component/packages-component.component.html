@@ -1,13 +1,47 @@
-﻿<div class="main">
-  <h1>Packages</h1>
-  <div class="addItem">
-    <input placeholder="Add Package" [(ngModel)]="newPackage.name" class="addText"/>
-    <button (click)="addPackage()">Add</button>
+﻿
+<div class="authbox authbox-small">
+
+  <form role="form" class="altai-form" name="userForm" novalidate>
+    <div class="page-header">
+      <h2>Add New Package</h2>
+    </div>
+    <div class="form-group">
+      <label>Name</label>
+      <input [(ngModel)]="package.name" name="name" class="addText" type="text" placeholder="Name" />
+    </div>
+    
+    <button (click)="addPackage()" class="button">Add</button>
+  </form>
+
+  <div class="altai-admin-section">
+    <div class="page-header">
+      <h2>Packages</h2>
+    </div>
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>Package name</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let package of packages; let ind = index">
+          <td style="width:20%;">{{package.name}}</td>
+          <td>
+            <button (click)="removePackage(ind)" class="deleteButton">Delete</button>
+           
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+
+
+
   </div>
-  <ul>
-    <li *ngFor="let package of packages; let ind = index">
-      {{package.name}}
-      <span (click)="removePackage(ind)">X</span>
-    </li>
-  </ul>
+
 </div>
+

@@ -10,5 +10,6 @@ namespace NugetPackageManager.Repository
   public interface IPackageRepository : IAltaiRepository<Package>
   {
     List<Package> GetPackages();
+    List<Package> GetUserPackagesByUserId(int userId);
   }
 }

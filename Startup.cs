@@ -41,8 +41,9 @@ namespace NugetPackageManager
 
       services.AddScoped<IPackageManager, PackageManager>();
       services.AddScoped<IPackageRepository, PackageRepository>();
-
-      
+      services.AddScoped<IUserManager, UserManager>();
+      services.AddScoped<IUserRepository, UserRepository>();
+      services.AddScoped<IUserPackageRepository, UserPackageRepository>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

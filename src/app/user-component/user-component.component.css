@@ -1,0 +1,335 @@
+﻿
+
+
+.altai-admin-section {
+  padding: 10px 20px;
+}
+
+  .altai-admin-section .header {
+    padding: 0 10px;
+  }
+
+    .altai-admin-section .header h1 {
+      font-size: 20px;
+    }
+
+  .altai-admin-section .actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .altai-admin-section table {
+    margin: 20px 0 20px 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-top: 4px solid #eee;
+    width: 100%;
+    background-color: #f3f3f3;
+  }
+
+    .altai-admin-section table select,
+    .altai-admin-section table textarea,
+    .altai-admin-section table input {
+      font-size: 100%;
+      border: 1px solid #f1f1f1;
+    }
+
+    .altai-admin-section table input {
+      padding: 5px;
+    }
+
+    .altai-admin-section table thead {
+      font-weight: bold;
+    }
+
+      .altai-admin-section table thead .checkbox {
+        width: 1%;
+      }
+
+  .altai-admin-section table td {
+    padding: 4px 10px 4px 10px;
+    text-align: left;
+    font-weight: 100;
+    font-size: small;
+  }
+
+  .altai-admin-section table th {
+    padding: 10px;
+    text-align: left;
+    font-weight: 100;
+    font-size: small;
+    font-style: italic;
+  }
+
+    .altai-admin-section table tr:nth-child(odd) {
+      background-color: #f3f3f3;
+    }
+
+    .altai-admin-section table tr.accompanyingperson {
+      font-style: italic;
+      color: #404040;
+    }
+
+      .altai-admin-section table tr.accompanyingperson:hover {
+        background-color: initial;
+      }
+
+    .altai-admin-section table tbody tr:hover {
+      background-color: #dbdbdb;
+    }
+
+    .altai-admin-section table .actioncell {
+      min-width: 80px;
+    }
+
+  .altai-admin-section form {
+    border: 0px solid #eee;
+    width: 100%;
+  }
+
+    .altai-admin-section form .form-row {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+    }
+
+      .altai-admin-section form .form-row .label {
+        width: 200px;
+      }
+
+      .altai-admin-section form .form-row input {
+        padding: 5px;
+        min-width: 250px;
+      }
+
+      .altai-admin-section form .form-row:nth-child(even) {
+        background-color: #efefef;
+      }
+
+
+
+ form { 
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+}
+
+ .altai-form-no-padding {
+  padding: 0;
+}
+
+ .altai-form .altai-simple-form {
+  background-color: #f3f3f3;
+  padding: 5px;
+  border-top: 4px solid #eee;
+}
+
+ .altai-form .form-group,
+ .altai-form .form-buttons,
+ .altai-form h2 {
+  margin: 10px 5px 5px 5px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+   .altai-form .form-buttons.mainbuttonrow {
+    margin-top: 10px;
+  }
+
+ .altai-form h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 5px 10px 5px;
+}
+
+ .altai-form .form-group .add-item,
+ .altai-form .form-group .remove-item {
+  color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+ .altai-form .form-group altai-content-item-update-inner {
+  width: 100%;
+}
+
+ .altai-form .form-group .add-item {
+  background-color: #0068ff;
+}
+
+ .altai-form .form-group .remove-item {
+  background-color: red;
+}
+
+.altai-form .form-group label {
+  display: block;  
+  padding-top: 0;
+  color: #525252;
+  font-size: 12px;
+  flex: 0 0 125px;
+}
+
+ .altai-form .form-group input[type=text],
+ .altai-form .form-group input[type=number],
+ .altai-form .form-group .altai-date-input,
+ .altai-form .form-group select {
+  padding: 7px; 
+  width: 50%;
+  background-color: #fEFEFE;
+  border: 1px solid #e3e3e3;
+  border-left: 4px solid #e3e3e3;
+}
+
+ .altai-form .form-group input[disabled] {
+  background-color: #F5f5f5;
+}
+
+ .altai-form .form-group .altai-content-attribute-update-item.Text {
+  max-width: 100%;
+}
+
+ .altai-form .form-group .altai-content-attribute-update-item {
+  margin-bottom: 10px;  
+  width: 100%;
+  display: flex;
+  margin-left: 10px;
+}
+
+   .altai-form .form-group .altai-content-attribute-update-item .altai-content-attribute-update-lang {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: #e4e4e4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+   .altai-form .form-group .altai-content-attribute-update-item .altai-content-attribute-update-tpl {
+    flex: 1;
+    display: flex;
+  }
+
+ .altai-form .altai-content-relation-update-item-wrapper {
+  background-color: #F9F9F9;
+}
+
+   .altai-form .altai-content-relation-update-item-wrapper .form-buttons {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+   .altai-form .altai-content-relation-update-item-wrapper .remove-item {
+    margin-top: 10px;
+  }
+
+ .altai-form .form-buttons {
+  display: flex;
+ 
+}
+
+.addText {
+  width: 684px;
+  padding: 5px;
+}
+
+.formPosition {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px 15px;
+  display: inline-block;
+  margin: 5px 5px;
+  letter-spacing: 1px;
+}
+
+.deleteButton {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.manageButton {
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+
+.authbox {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  width: 80%;
+  left: 260px;
+  margin-top: -60px;
+  background-color: #efefef;
+  padding: 20px;
+}
+
+  .authbox input,
+  .authbox select {
+    border-radius: 0px;
+    font-size: 14px;
+  }
+
+  .authbox img {
+    vertical-align: initial;
+  }
+
+  .authbox .btn-success {
+    background-color: #1DBFF0;
+    border-color: #1DBFF0;
+  }
+
+  .authbox .authbox-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .authbox .authbox-subtitle {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+.authbox-small {
+  
+}
+
+.authbox-large {
+  margin-top: -250px;
+}
+
+.page-header h2 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}

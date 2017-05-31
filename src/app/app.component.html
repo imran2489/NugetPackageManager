@@ -1,13 +1,26 @@
-﻿<h1>Nuget Package Manager</h1>
+﻿
 
-<a routerLink="/user">Users</a>
-<!--<a routerLink="/package">Packages</a>-->
 
-<br />
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a cla routerLink="/">Home</a>
+  <a routerLink="/user">Users</a>
+  <a routerLink="/package">Packages</a>
+</div>
+
+<div id="navDiv" class="navbar">
+  <div style="text-align: center;color:white"><h1>Nuget Package Manager</h1></div>a>
+  
+</div>
+
+
+
+
+<div id="mainDiv">
+ 
+  <span style="font-size:30px;cursor:pointer" (click)="openNav()" >&#9776; Menu</span>
+</div>
+
 
 <router-outlet></router-outlet>
-
-
-<!--<ul *ngFor="let value of apiValues">
-  <li>{{value}}</li>
-</ul>-->

@@ -20,5 +20,22 @@ namespace NugetPackageManager.Business
     {
       return _packageRepository.GetPackages();
     }
+
+    public Package CreatePackage(Package newPackage)
+    {
+     
+      return _packageRepository.Add(newPackage);
+    }
+
+    public void DeleteById(int packageId)
+    {
+      _packageRepository.DeleteById(packageId);
+
+    }
+
+    public List<Package> GetUserPackagesByUserId(int userId)
+    {
+      return _packageRepository.GetUserPackagesByUserId(userId);
+    }
   }
 }
