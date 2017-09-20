@@ -1,0 +1,6 @@
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\net452\win7-x86\NugetPackageManager.deps.json
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\net452\win7-x86\NugetPackageManager.runtimeconfig.json
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\net452\win7-x86\NugetPackageManager.runtimeconfig.dev.json
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\net452\win7-x86\NugetPackageManager.csprojResolveAssemblyReference.cache
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\net452\win7-x86\NugetPackageManager.csproj.NugetPackageManager.exe.config
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\net452\win7-x86\NugetPackageManager.AssemblyInfo.cs

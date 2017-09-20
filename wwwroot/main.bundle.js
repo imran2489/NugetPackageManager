@@ -526,7 +526,7 @@ module.exports = module.exports.toString();
 /***/ 216:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n\r\n\r\n\r\n<div id=\"mySidenav\" class=\"sidenav\">\r\n  <a href=\"javascript:void(0)\" class=\"closebtn\" (click)=\"closeNav()\">&times;</a>\r\n  <a routerLink=\"/\">Home</a>\r\n  <a routerLink=\"/user\">Users</a>\r\n  <a routerLink=\"/package\">Packages</a>\r\n</div>\r\n\r\n<div id=\"navDiv\" class=\"navbar\">\r\n  <div style=\"text-align: center;color:white\"><h1>Nuget Package Manager</h1></div>a>\r\n  \r\n</div>\r\n\r\n\r\n\r\n\r\n<div id=\"mainDiv\">\r\n \r\n  <span style=\"font-size:30px;cursor:pointer\" (click)=\"openNav()\" >&#9776; Menu</span>\r\n</div>\r\n\r\n\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "\r\n\r\n\r\n\r\n<div id=\"mySidenav\" class=\"sidenav\">\r\n  <a href=\"javascript:void(0)\" class=\"closebtn\" (click)=\"closeNav()\">&times;</a>\r\n  <a cla routerLink=\"/\">Home</a>\r\n  <a routerLink=\"/user\">Users</a>\r\n  <a routerLink=\"/package\">Packages</a>\r\n</div>\r\n\r\n<div id=\"navDiv\" class=\"navbar\">\r\n  <div style=\"text-align: center;color:white\"><h1>Nuget Package Manager</h1></div>a>\r\n  \r\n</div>\r\n\r\n\r\n\r\n\r\n<div id=\"mainDiv\">\r\n \r\n  <span style=\"font-size:30px;cursor:pointer\" (click)=\"openNav()\" >&#9776; Menu</span>\r\n</div>\r\n\r\n\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 

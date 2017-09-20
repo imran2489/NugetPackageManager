@@ -6,4 +6,4 @@ C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\netcoreapp1
 C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\bin\Debug\netcoreapp1.1\NugetPackageManager.pdb
 C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.dll
 C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.pdb
-C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.csprojResolveAssemblyReference.cache
+C:\Workspace\Nuget\NugetPackageManager\NugetPackageManager\obj\Debug\netcoreapp1.1\NugetPackageManager.csproj.CoreCompileInputs.cache
